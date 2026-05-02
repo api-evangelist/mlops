@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "https://ml-ops.org/vocab#",
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "MLModel": "https://ml-ops.org/vocab#MLModel",
+    "Pipeline": "https://ml-ops.org/vocab#Pipeline",
+    "Experiment": "https://ml-ops.org/vocab#Experiment",
+    "FeatureStore": "https://ml-ops.org/vocab#FeatureStore",
+    "ModelRegistry": "https://ml-ops.org/vocab#ModelRegistry",
+    "DeploymentTarget": "https://ml-ops.org/vocab#DeploymentTarget",
+    "Dataset": "schema:Dataset",
+    "version": "schema:version",
+    "framework": "https://ml-ops.org/vocab#framework",
+    "task": "https://ml-ops.org/vocab#task",
+    "metrics": "https://ml-ops.org/vocab#metrics",
+    "trainingData": "https://ml-ops.org/vocab#trainingData",
+    "owner": "schema:author",
+    "createdAt": "schema:dateCreated",
+    "updatedAt": "schema:dateModified"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/mlops/main/json-schema/mlops-model-schema.json",
+  "title": "MLOps Model",
+  "description": "Schema describing a machine learning model artifact tracked by an MLOps process, including version, framework, training inputs, evaluation metrics, lineage, and governance metadata.",
+  "type": "object",
+  "required": ["name", "version", "framework", "task"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the model in the registry."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the model."
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic or registry-assigned version of the model artifact."
+    },
+    "description": {
+      "type": "string"
+    },
+    "framework": {
+      "type": "string",
+      "enum": ["tensorflow", "pytorch", "scikit-learn", "xgboost", "lightgbm", "huggingface", "onnx", "other"]
+    },
+    "task": {
+      "type": "string",
+      "enum": ["classification", "regression", "ranking", "clustering", "generation", "embedding", "recommendation", "forecasting", "other"]
+    },
+    "trainingDatasetId": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "Map of metric name to numeric score (e.g., accuracy, f1, rmse)."
+    },
+    "owner": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "string",
+      "enum": ["development", "staging", "production", "archived"]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
