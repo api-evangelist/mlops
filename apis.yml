@@ -56,7 +56,7 @@ common:
     url: https://www.innoq.com/
   - type: License
     url: https://creativecommons.org/licenses/by/4.0/
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/mlops-context.jsonld
   - type: JSONSchema
     url: json-schema/mlops-model-schema.json
