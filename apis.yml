@@ -38,7 +38,7 @@ tags:
   - Model Serving
 created: '2025'
 modified: '2026-04-28'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
