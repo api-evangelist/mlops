@@ -40,7 +40,7 @@ tags:
   - AI Operations
   - CRISP-ML(Q)
   - DevOps
-  - Machine-Learning
+  - Machine Learning
   - ML Engineering
   - ML Governance
   - ML Pipelines
@@ -58,6 +58,7 @@ tags_raw:
   - Model Deployment
   - Model Monitoring
   - Model Serving
+  - Machine-Learning
 created: '2025'
 modified: '2026-04-28'
 specificationVersion: '0.23'
