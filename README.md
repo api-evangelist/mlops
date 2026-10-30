@@ -1,4 +1,4 @@
-# MLOps (mlops)
+# MLOps
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,60 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MLOps (Machine Learning Operations) is an engineering discipline that unifies machine learning development with operations to deploy, monitor, govern, and maintain machine learning models in production. MLOps.org publishes an end-to-end reference for designing, building, and managing reproducible, testable, and evolvable ML-powered software, including the CRISP-ML(Q) process model, the MLOps Stack Canvas, MLOps principles, and ML model governance practices.
+MLOps (Machine Learning Operations) is an engineering discipline that unifies machine learning development with operations to deploy, monitor, govern, and maintain machine learning models in production. MLOps.org publishes an end-to-end reference for designing, building, and managing reproducible, testable, and evolvable ML-powered software, including the CRISP-ML(Q) process model, the MLOps Stack Canvas, MLOps principles, and ML model governance practices. This index curates the canonical references, frameworks, and ecosystem resources for practicing MLOps across data engineering, ML pipelines, and model serving.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mlops/refs/heads/main/apis.yml)
+**Areas:** AI Operations · CRISP-ML(Q) · DevOps · Machine Learning · ML Engineering · ML Governance · ML Pipelines · Model Deployment · Model Monitoring · Model Serving
 
-## Scope
+## MLOps on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for MLOps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mlops/](https://apis.io/providers/mlops/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- AI Operations
-- CRISP-ML(Q)
-- DevOps
-- Machine Learning
-- ML Engineering
-- ML Governance
-- ML Pipelines
-- Model Deployment
-- Model Monitoring
-- Model Serving
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON Schema (2)
 
-- **Created:** 2025
-- **Modified:** 2026-04-28
+The data models the API reads and writes.
 
-## Artifacts
+- [MLOps Model](https://apis.io/schemas/mlops/mlops-model/)
+- [MLOps Pipeline](https://apis.io/schemas/mlops/mlops-pipeline/)
 
-| Type | File | Description |
-|------|------|-------------|
-| JSON-LD | [json-ld/mlops-context.jsonld](json-ld/mlops-context.jsonld) | Linked-data context mapping MLOps entities to schema.org and an MLOps vocabulary |
-| JSON Schema | [json-schema/mlops-model-schema.json](json-schema/mlops-model-schema.json) | Schema describing a registered ML model artifact, framework, metrics, and lifecycle stage |
-| JSON Schema | [json-schema/mlops-pipeline-schema.json](json-schema/mlops-pipeline-schema.json) | Schema describing an end-to-end MLOps pipeline with ingest, train, deploy, and monitor stages |
+#### JSON-LD (1)
 
-## Common Properties
+Linked-data contexts for the provider's vocabulary.
+
+- [Mlops Context](https://apis.io/jsonld/mlops/mlops-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MLOps — jsonschema rules](https://apis.io/rules/mlops/mlops-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mlops Domain Security](https://apis.io/security/mlops/mlops-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://ml-ops.org/)
-- [Motivation](https://ml-ops.org/content/motivation)
-- [Designing ML Software](https://ml-ops.org/content/phase-zero)
-- [ML Workflow Lifecycle](https://ml-ops.org/content/end-to-end-ml-workflow)
-- [Three Levels of ML Software](https://ml-ops.org/content/three-levels-of-ml-software)
-- [MLOps Principles](https://ml-ops.org/content/mlops-principles)
-- [CRISP-ML(Q)](https://ml-ops.org/content/crisp-ml)
-- [MLOps Stack Canvas](https://ml-ops.org/content/mlops-stack-canvas)
-- [ML Model Governance](https://ml-ops.org/content/model-governance)
-- [References](https://ml-ops.org/content/references)
-- [State of MLOps](https://ml-ops.org/content/state-of-mlops)
-- [Publisher (INNOQ)](https://www.innoq.com/)
-- [License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
-**URL:** https://apievangelist.com
+**Kin Score 7.9** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mlops/](https://apis.io/providers/mlops/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MLOps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mlops/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
